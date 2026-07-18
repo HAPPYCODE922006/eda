@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 4. **Train the model.**
    ```bash
-   python train_model.py
+   python model.py
    ```
    This trains a `RandomForestRegressor` on the cleaned data, prints RMSE / MAE / R², and saves
    the fitted model to `aqi_model.pkl` in the project root.
